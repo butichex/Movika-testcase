@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import Interactive from '../src/components/Interactive/Interactive';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App time={10} videos={["video1.mp4", "video3.mp4", "video2.mp4"]} />
+    <Interactive time={10} videos={["demo.mp4"]} />
   </React.StrictMode>
 );
 

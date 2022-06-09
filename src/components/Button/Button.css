@@ -1,0 +1,11 @@
+
+.content__button {
+    position  : absolute;
+    bottom: 50px;
+    color: white; 
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
